@@ -11,6 +11,8 @@
     </div>
   <% end %>
   <div class="container">
+    <%= f.input :photo %>
+    <%= f.input :photo_cache, as: :hidden %>
     <%= f.input :name, label: false, placeholder: 'Name' %>
     <%= f.submit class: "btn btn-primary"%>
   </div>

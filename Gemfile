@@ -26,6 +26,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
+gem 'cloudinary', '~> 1.9.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'autoprefixer-rails'
@@ -33,6 +34,7 @@ gem 'autoprefixer-rails'
 # gem 'mini_magick', '~> 4.8'
 gem 'font-awesome-sass', '~> 5.6.1'
 # Use Capistrano for deployment
+gem 'carrierwave', '~> 1.2'
 # gem 'capistrano-rails', group: :development
 gem 'simple_form'
 # Reduces boot times through caching; required in config/boot.rb
